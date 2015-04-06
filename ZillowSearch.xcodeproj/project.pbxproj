@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1923D51A1A187AB2008080DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1923D5191A187AB2008080DF /* AppDelegate.swift */; };
+		1923D51C1A187AB2008080DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1923D51B1A187AB2008080DF /* ViewController.swift */; };
+		1923D51F1A187AB2008080DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1923D51D1A187AB2008080DF /* Main.storyboard */; };
+		1923D5211A187AB2008080DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1923D5201A187AB2008080DF /* Images.xcassets */; };
+		1923D5241A187AB2008080DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1923D5221A187AB2008080DF /* LaunchScreen.xib */; };
+		1923D5301A187AB2008080DF /* Homework9Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1923D52F1A187AB2008080DF /* Homework9Tests.swift */; };
+		193842481A2134DF00673CE5 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 193842471A2134DF00673CE5 /* UIView+Toast.m */; };
+		1941AE1E1A1FB646000307F0 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1941AE1D1A1FB646000307F0 /* AdSupport.framework */; };
+		1941AE201A1FB64E000307F0 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1941AE1F1A1FB64E000307F0 /* Accounts.framework */; };
+		1941AE221A1FB654000307F0 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1941AE211A1FB654000307F0 /* Social.framework */; };
+		19EE1B351A1F3AEC00B35CF7 /* FacebookShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EE1B341A1F3AEC00B35CF7 /* FacebookShare.m */; };
+		19F065C11A1B0B8A00194EBB /* BasicInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F065C01A1B0B8A00194EBB /* BasicInfo.swift */; };
+		19F065C31A1B327A00194EBB /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F065C21A1B327A00194EBB /* TabController.swift */; };
+		19F065DC1A1C75EC00194EBB /* HTTPRequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F065D71A1C75EC00194EBB /* HTTPRequestSerializer.swift */; };
+		19F065DD1A1C75EC00194EBB /* HTTPResponseSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F065D81A1C75EC00194EBB /* HTTPResponseSerializer.swift */; };
+		19F065DE1A1C75EC00194EBB /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F065D91A1C75EC00194EBB /* HTTPTask.swift */; };
+		19F065DF1A1C75EC00194EBB /* HTTPUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F065DA1A1C75EC00194EBB /* HTTPUpload.swift */; };
+		19F065E21A1C806200194EBB /* JSONJoy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F065E11A1C806200194EBB /* JSONJoy.swift */; };
+		19F065E41A1D130300194EBB /* HistoricalZestimates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F065E31A1D130300194EBB /* HistoricalZestimates.swift */; };
+		19F065E61A1D1D2400194EBB /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F065E51A1D1D2400194EBB /* FacebookSDK.framework */; };
+		19F065F41A1D5AC300194EBB /* MyCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F065F31A1D5AC300194EBB /* MyCustomCell.swift */; };
+		19F065F81A1D60B300194EBB /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19F065F71A1D60B300194EBB /* Cell.xib */; };
+		19F065FA1A1DD00E00194EBB /* MyCustomCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F065F91A1DD00E00194EBB /* MyCustomCell2.swift */; };
+		19F065FC1A1DD09700194EBB /* Cell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19F065FB1A1DD09600194EBB /* Cell2.xib */; };
+		19F066001A1DD7E400194EBB /* Cell3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19F065FF1A1DD7E400194EBB /* Cell3.xib */; };
+		19F066021A1DD8CA00194EBB /* MyCustomCell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F066011A1DD8CA00194EBB /* MyCustomCell3.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1923D52A1A187AB2008080DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1923D50C1A187AB2008080DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1923D5131A187AB2008080DF;
+			remoteInfo = Homework9;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1923D5141A187AB2008080DF /* com.zillow.ZillowSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = com.zillow.ZillowSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1923D5181A187AB2008080DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1923D5191A187AB2008080DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1923D51B1A187AB2008080DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1923D51E1A187AB2008080DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1923D5201A187AB2008080DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1923D5231A187AB2008080DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1923D5291A187AB2008080DF /* ZillowSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZillowSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1923D52E1A187AB2008080DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1923D52F1A187AB2008080DF /* Homework9Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework9Tests.swift; sourceTree = "<group>"; };
+		193842461A2134DF00673CE5 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		193842471A2134DF00673CE5 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		1941AE1D1A1FB646000307F0 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		1941AE1F1A1FB64E000307F0 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		1941AE211A1FB654000307F0 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		19EE1B301A1F3A9600B35CF7 /* Homework9-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Homework9-Bridging-Header.h"; sourceTree = "<group>"; };
+		19EE1B331A1F3AEC00B35CF7 /* FacebookShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FacebookShare.h; path = ../FacebookShare.h; sourceTree = "<group>"; };
+		19EE1B341A1F3AEC00B35CF7 /* FacebookShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FacebookShare.m; path = ../FacebookShare.m; sourceTree = "<group>"; };
+		19F065C01A1B0B8A00194EBB /* BasicInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BasicInfo.swift; path = ../BasicInfo.swift; sourceTree = "<group>"; };
+		19F065C21A1B327A00194EBB /* TabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
+		19F065D71A1C75EC00194EBB /* HTTPRequestSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequestSerializer.swift; sourceTree = "<group>"; };
+		19F065D81A1C75EC00194EBB /* HTTPResponseSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPResponseSerializer.swift; sourceTree = "<group>"; };
+		19F065D91A1C75EC00194EBB /* HTTPTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		19F065DA1A1C75EC00194EBB /* HTTPUpload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPUpload.swift; sourceTree = "<group>"; };
+		19F065DB1A1C75EC00194EBB /* SwiftHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftHTTP.h; sourceTree = "<group>"; };
+		19F065E01A1C806200194EBB /* JSONJoy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONJoy.h; sourceTree = "<group>"; };
+		19F065E11A1C806200194EBB /* JSONJoy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONJoy.swift; sourceTree = "<group>"; };
+		19F065E31A1D130300194EBB /* HistoricalZestimates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistoricalZestimates.swift; path = ../HistoricalZestimates.swift; sourceTree = "<group>"; };
+		19F065E51A1D1D2400194EBB /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		19F065F31A1D5AC300194EBB /* MyCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyCustomCell.swift; path = ../MyCustomCell.swift; sourceTree = "<group>"; };
+		19F065F71A1D60B300194EBB /* Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Cell.xib; path = ../Cell.xib; sourceTree = "<group>"; };
+		19F065F91A1DD00E00194EBB /* MyCustomCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyCustomCell2.swift; path = ../MyCustomCell2.swift; sourceTree = "<group>"; };
+		19F065FB1A1DD09600194EBB /* Cell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell2.xib; sourceTree = SOURCE_ROOT; };
+		19F065FF1A1DD7E400194EBB /* Cell3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell3.xib; sourceTree = SOURCE_ROOT; };
+		19F066011A1DD8CA00194EBB /* MyCustomCell3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyCustomCell3.swift; path = ../MyCustomCell3.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1923D5111A187AB2008080DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1941AE221A1FB654000307F0 /* Social.framework in Frameworks */,
+				1941AE201A1FB64E000307F0 /* Accounts.framework in Frameworks */,
+				1941AE1E1A1FB646000307F0 /* AdSupport.framework in Frameworks */,
+				19F065E61A1D1D2400194EBB /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1923D5261A187AB2008080DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1923D50B1A187AB2008080DF = {
+			isa = PBXGroup;
+			children = (
+				1941AE211A1FB654000307F0 /* Social.framework */,
+				1941AE1F1A1FB64E000307F0 /* Accounts.framework */,
+				1941AE1D1A1FB646000307F0 /* AdSupport.framework */,
+				19F065E51A1D1D2400194EBB /* FacebookSDK.framework */,
+				1923D5161A187AB2008080DF /* Homework9 */,
+				1923D52C1A187AB2008080DF /* Homework9Tests */,
+				1923D5151A187AB2008080DF /* Products */,
+				19EE1B301A1F3A9600B35CF7 /* Homework9-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		1923D5151A187AB2008080DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1923D5141A187AB2008080DF /* com.zillow.ZillowSearch.app */,
+				1923D5291A187AB2008080DF /* ZillowSearchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1923D5161A187AB2008080DF /* Homework9 */ = {
+			isa = PBXGroup;
+			children = (
+				193842451A2134DF00673CE5 /* Toast */,
+				19F065EA1A1D264000194EBB /* HTTP */,
+				1923D5191A187AB2008080DF /* AppDelegate.swift */,
+				19EE1B331A1F3AEC00B35CF7 /* FacebookShare.h */,
+				19EE1B341A1F3AEC00B35CF7 /* FacebookShare.m */,
+				1923D51B1A187AB2008080DF /* ViewController.swift */,
+				19F065C21A1B327A00194EBB /* TabController.swift */,
+				19F065C01A1B0B8A00194EBB /* BasicInfo.swift */,
+				19F065E31A1D130300194EBB /* HistoricalZestimates.swift */,
+				19F065F31A1D5AC300194EBB /* MyCustomCell.swift */,
+				19F065F91A1DD00E00194EBB /* MyCustomCell2.swift */,
+				19F066011A1DD8CA00194EBB /* MyCustomCell3.swift */,
+				1923D51D1A187AB2008080DF /* Main.storyboard */,
+				1923D5201A187AB2008080DF /* Images.xcassets */,
+				19F065F71A1D60B300194EBB /* Cell.xib */,
+				19F065FB1A1DD09600194EBB /* Cell2.xib */,
+				19F065FF1A1DD7E400194EBB /* Cell3.xib */,
+				1923D5221A187AB2008080DF /* LaunchScreen.xib */,
+				1923D5171A187AB2008080DF /* Supporting Files */,
+			);
+			path = Homework9;
+			sourceTree = "<group>";
+		};
+		1923D5171A187AB2008080DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1923D5181A187AB2008080DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1923D52C1A187AB2008080DF /* Homework9Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1923D52F1A187AB2008080DF /* Homework9Tests.swift */,
+				1923D52D1A187AB2008080DF /* Supporting Files */,
+			);
+			path = Homework9Tests;
+			sourceTree = "<group>";
+		};
+		1923D52D1A187AB2008080DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1923D52E1A187AB2008080DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		193842451A2134DF00673CE5 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				193842461A2134DF00673CE5 /* UIView+Toast.h */,
+				193842471A2134DF00673CE5 /* UIView+Toast.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		19F065EA1A1D264000194EBB /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				19F065E01A1C806200194EBB /* JSONJoy.h */,
+				19F065E11A1C806200194EBB /* JSONJoy.swift */,
+				19F065D71A1C75EC00194EBB /* HTTPRequestSerializer.swift */,
+				19F065D81A1C75EC00194EBB /* HTTPResponseSerializer.swift */,
+				19F065D91A1C75EC00194EBB /* HTTPTask.swift */,
+				19F065DA1A1C75EC00194EBB /* HTTPUpload.swift */,
+				19F065DB1A1C75EC00194EBB /* SwiftHTTP.h */,
+			);
+			name = HTTP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1923D5131A187AB2008080DF /* ZillowSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1923D5331A187AB2008080DF /* Build configuration list for PBXNativeTarget "ZillowSearch" */;
+			buildPhases = (
+				1923D5101A187AB2008080DF /* Sources */,
+				1923D5111A187AB2008080DF /* Frameworks */,
+				1923D5121A187AB2008080DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZillowSearch;
+			productName = Homework9;
+			productReference = 1923D5141A187AB2008080DF /* com.zillow.ZillowSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1923D5281A187AB2008080DF /* ZillowSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1923D5361A187AB2008080DF /* Build configuration list for PBXNativeTarget "ZillowSearchTests" */;
+			buildPhases = (
+				1923D5251A187AB2008080DF /* Sources */,
+				1923D5261A187AB2008080DF /* Frameworks */,
+				1923D5271A187AB2008080DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1923D52B1A187AB2008080DF /* PBXTargetDependency */,
+			);
+			name = ZillowSearchTests;
+			productName = Homework9Tests;
+			productReference = 1923D5291A187AB2008080DF /* ZillowSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1923D50C1A187AB2008080DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Arjun Pola";
+				TargetAttributes = {
+					1923D5131A187AB2008080DF = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = Y67U3NE497;
+					};
+					1923D5281A187AB2008080DF = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 1923D5131A187AB2008080DF;
+					};
+				};
+			};
+			buildConfigurationList = 1923D50F1A187AB2008080DF /* Build configuration list for PBXProject "ZillowSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1923D50B1A187AB2008080DF;
+			productRefGroup = 1923D5151A187AB2008080DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1923D5131A187AB2008080DF /* ZillowSearch */,
+				1923D5281A187AB2008080DF /* ZillowSearchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1923D5121A187AB2008080DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1923D51F1A187AB2008080DF /* Main.storyboard in Resources */,
+				19F066001A1DD7E400194EBB /* Cell3.xib in Resources */,
+				19F065F81A1D60B300194EBB /* Cell.xib in Resources */,
+				1923D5241A187AB2008080DF /* LaunchScreen.xib in Resources */,
+				19F065FC1A1DD09700194EBB /* Cell2.xib in Resources */,
+				1923D5211A187AB2008080DF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1923D5271A187AB2008080DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1923D5101A187AB2008080DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193842481A2134DF00673CE5 /* UIView+Toast.m in Sources */,
+				19F065DF1A1C75EC00194EBB /* HTTPUpload.swift in Sources */,
+				19F065DE1A1C75EC00194EBB /* HTTPTask.swift in Sources */,
+				19F066021A1DD8CA00194EBB /* MyCustomCell3.swift in Sources */,
+				19F065E41A1D130300194EBB /* HistoricalZestimates.swift in Sources */,
+				19F065C11A1B0B8A00194EBB /* BasicInfo.swift in Sources */,
+				19F065C31A1B327A00194EBB /* TabController.swift in Sources */,
+				19EE1B351A1F3AEC00B35CF7 /* FacebookShare.m in Sources */,
+				19F065FA1A1DD00E00194EBB /* MyCustomCell2.swift in Sources */,
+				19F065DD1A1C75EC00194EBB /* HTTPResponseSerializer.swift in Sources */,
+				19F065DC1A1C75EC00194EBB /* HTTPRequestSerializer.swift in Sources */,
+				1923D51C1A187AB2008080DF /* ViewController.swift in Sources */,
+				19F065F41A1D5AC300194EBB /* MyCustomCell.swift in Sources */,
+				19F065E21A1C806200194EBB /* JSONJoy.swift in Sources */,
+				1923D51A1A187AB2008080DF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1923D5251A187AB2008080DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1923D5301A187AB2008080DF /* Homework9Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1923D52B1A187AB2008080DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1923D5131A187AB2008080DF /* ZillowSearch */;
+			targetProxy = 1923D52A1A187AB2008080DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1923D51D1A187AB2008080DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1923D51E1A187AB2008080DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1923D5221A187AB2008080DF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1923D5231A187AB2008080DF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1923D5311A187AB2008080DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1923D5321A187AB2008080DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1923D5341A187AB2008080DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/arjunpola/Documents/FacebookSDK,
+				);
+				INFOPLIST_FILE = Homework9/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = com.zillow.ZillowSearch;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Homework9-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1923D5351A187AB2008080DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/arjunpola/Documents/FacebookSDK,
+				);
+				INFOPLIST_FILE = Homework9/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = com.zillow.ZillowSearch;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Homework9-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		1923D5371A187AB2008080DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Homework9Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = ZillowSearchTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homework9.app/Homework9";
+			};
+			name = Debug;
+		};
+		1923D5381A187AB2008080DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Homework9Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = ZillowSearchTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homework9.app/Homework9";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1923D50F1A187AB2008080DF /* Build configuration list for PBXProject "ZillowSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1923D5311A187AB2008080DF /* Debug */,
+				1923D5321A187AB2008080DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1923D5331A187AB2008080DF /* Build configuration list for PBXNativeTarget "ZillowSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1923D5341A187AB2008080DF /* Debug */,
+				1923D5351A187AB2008080DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1923D5361A187AB2008080DF /* Build configuration list for PBXNativeTarget "ZillowSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1923D5371A187AB2008080DF /* Debug */,
+				1923D5381A187AB2008080DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1923D50C1A187AB2008080DF /* Project object */;
+}
